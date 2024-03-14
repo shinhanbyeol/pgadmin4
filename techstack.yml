@@ -1,0 +1,2162 @@
+repo_name: shinhanbyeol/pgadmin4
+report_id: 56d2e28c9554871b639241097fd84037
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T04:57:05+00:00'
+requested_by: nikhil-mohite
+provider: github
+branch: master
+detected_tools_count: 157
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: Mako
+  description: Template library written in Python
+  website_url: https://github.com/zzzeek/mako
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3583/default_43e3ee00dcc48a40f6fcba33551e4f5a99a10537.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/pgadmin/browser/server_groups/servers/databases/casts/templates/casts/sql/default/create.sql
+  detection_source: web/pgadmin/browser/server_groups/servers/databases/casts/templates/casts/sql/default/create.sql
+  last_updated_by: Sanket Mehta
+  last_updated_on: 2016-02-24 16:44:37.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Atira Odhner
+  last_updated_on: 2017-03-15 17:09:22.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: Backbone.js
+  description: Give your JS App some Backbone with Models, Views, Collections, and
+    Events
+  website_url: http://backbonejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/1017/Screen_Shot_2012-04-28_at_8.52.15_PM.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Khushboo Vashi
+  last_updated_on: 2019-03-14 15:11:16.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/runtime/yarn.lock
+  detection_source: runtime/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-01-29 08:08:27.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 2.9.4
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2020-07-29 09:19:22.000000000 Z
+- name: Dropzone.js
+  description: An open source library that provides drag and drop file uploads with
+    image previews
+  website_url: http://www.dropzonejs.com/
+  version: 5.9.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/6890/dropzonejs.com
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-23 07:45:53.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Dave Page
+  last_updated_on: 2019-09-16 12:48:11.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Dave Page
+  last_updated_on: 2017-12-05 05:21:13.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Atira Odhner
+  last_updated_on: 2017-03-15 17:09:22.000000000 Z
+- name: Select2
+  description: The jQuery replacement for select boxes
+  website_url: https://select2.github.io/
+  version: 4.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/7488/select2.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-06-29 09:03:36.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-11-12 08:49:09.000000000 Z
+- name: jQuery UI
+  description: Curated set of user interface interactions, effects, widgets, and themes
+    built on top of the jQuery JavaScript Library
+  website_url: http://jqueryui.com/
+  version: 1.13.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1022/jqueryui_avatar_96.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-11-12 08:49:09.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-06-29 09:03:36.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: '1.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 3.1.2
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Rahul Shirsat
+  last_updated_on: 2021-09-02 06:06:10.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.13.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 5.59.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/runtime/package.json
+  detection_source: runtime/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-01-29 08:08:27.000000000 Z
+- name: Enzyme
+  description: JavaScript Testing utilities for React, by Airbnb
+  website_url: https://enzymejs.github.io/enzyme/
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-03-15 10:17:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Pramod Ahire
+  last_updated_on: 2020-08-07 06:57:12.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 6.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-05-14 07:54:45.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Atira Odhner
+  last_updated_on: 2017-03-15 17:09:22.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Dave Page
+  last_updated_on: 2017-02-26 09:06:17.000000000 Z
+- name: RequireJS
+  description: JavaScript file and module loader
+  website_url: http://requirejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/852/1781835.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Shruti B Iyer
+  last_updated_on: 2017-06-12 15:51:54.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.24.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-05-14 07:54:45.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/runtime/yarn.lock
+  detection_source: runtime/yarn.lock
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-01-29 08:08:27.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Atira Odhner
+  last_updated_on: 2017-03-15 17:09:22.000000000 Z
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashesh Vashi
+  last_updated_on: 2021-12-02 11:17:18.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  version: 3.15.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Dave Page
+  last_updated_on: 2021-11-30 11:56:41.000000000 Z
+- name: Font Awesome
+  description: The internet's most popular icon toolkit
+  website_url: https://fontawesome.com/
+  version: 5.15.4
+  open_source: true
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Nikhil Mohite
+  last_updated_on: 2020-08-13 06:34:00.000000000 Z
+- name: Leaflet
+  description: JavaScript library for mobile-friendly interactive maps
+  website_url: http://leafletjs.com/
+  version: 1.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/2392/leaflet_upic.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2019-06-05 11:00:09.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/runtime/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-01-16 11:36:50.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-08-02 06:09:37.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4
+  detection_source: Repo Metadata
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-30 09:30:32.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/runtime/yarn.lock
+  detection_source: runtime/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-01-29 08:08:27.000000000 Z
+- name: cssnano
+  description: A modular minifier, based on the PostCSS ecosystem. Created by @ben_eb.
+  website_url: http://cssnano.co/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-30 09:30:32.000000000 Z
+- name: svgo
+  website_url: https://github.com/svg/svgo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/package.json
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.13.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-30 09:30:32.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-12-01 12:13:20.000000000 Z
+- name: "@babel/plugin-proposal-object-rest-spread"
+  description: Compile object rest and spread to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-object-rest-spread
+  version: 7.14.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-12-01 12:13:20.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.13.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.14.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: "@emotion/core"
+  description: "&gt; Simple styling in React"
+  package_url: https://www.npmjs.com/@emotion/core
+  version: 10.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16475/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-30 09:30:32.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 10.0.27
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: "@fortawesome/fontawesome-free"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-free
+  version: 5.15.4
+  license: CC-BY-4.0,OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17170/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  version: 4.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-30 09:30:32.000000000 Z
+- name: "@material-ui/icons"
+  description: Material Design Svg Icons converted to Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/icons
+  version: 4.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-23 07:45:53.000000000 Z
+- name: "@material-ui/lab"
+  description: Material-UI Lab - Incubator for Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/lab
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18760/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-23 07:45:53.000000000 Z
+- name: "@types/classnames"
+  description: TypeScript definitions for classnames
+  package_url: https://www.npmjs.com/@types/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16431/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.14.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.9.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: axios-mock-adapter
+  description: Axios adapter that allows to easily mock requests
+  package_url: https://www.npmjs.com/axios-mock-adapter
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17391/default_e9c4b89784d4fe5d59f93b4a54dd8910ea23e5de.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-03-15 10:17:21.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: babelify
+  description: Babel browserify transform
+  package_url: https://www.npmjs.com/babelify
+  version: 10.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15993/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: bignumber.js
+  description: A library for arbitrary-precision decimal and non-decimal arithmetic
+  package_url: https://www.npmjs.com/bignumber.js
+  version: 7.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16433/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-06-29 09:03:36.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-12-01 12:13:20.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-30 09:30:32.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 5.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.23.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: exports-loader
+  description: Exports loader module for webpack
+  package_url: https://www.npmjs.com/exports-loader
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16572/default_aaf5839b9bd35cf60ebf8e1b59d64d8e3b398aaa.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: html2canvas
+  description: Screenshots with JavaScript
+  package_url: https://www.npmjs.com/html2canvas
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17554/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: imagemin-mozjpeg
+  description: Imagemin plugin for mozjpeg
+  package_url: https://www.npmjs.com/imagemin-mozjpeg
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18375/default_dfa436ad7e86b77a556a6a1efbcfc256ca9653ce.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: imagemin-pngquant
+  description: Imagemin plugin for `pngquant`
+  package_url: https://www.npmjs.com/imagemin-pngquant
+  version: 9.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17166/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: immutability-helper
+  description: Mutate a copy of data without changing the original source
+  package_url: https://www.npmjs.com/immutability-helper
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17042/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Khushboo Vashi
+  last_updated_on: 2019-03-14 15:11:16.000000000 Z
+- name: imports-loader
+  description: Imports loader module for webpack
+  package_url: https://www.npmjs.com/imports-loader
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16422/default_cdeaf2fdc112ae29eada7343314e0eee59c7eb0d.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: istanbul-instrumenter-loader
+  description: Istanbul instrumenter loader for webpack
+  package_url: https://www.npmjs.com/istanbul-instrumenter-loader
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16220/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-12-02 10:35:52.000000000 Z
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-30 09:30:32.000000000 Z
+- name: karma-babel-preprocessor
+  description: Preprocessor to compile ES6 on the fly with babel
+  package_url: https://www.npmjs.com/karma-babel-preprocessor
+  version: 8.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16504/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: karma-browserify
+  description: A fast browserify integration for Karma that handles large projects
+    with ease
+  package_url: https://www.npmjs.com/karma-browserify
+  version: 8.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16294/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-05-14 07:54:45.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-05-14 07:54:45.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-05-14 07:54:45.000000000 Z
+- name: karma-jasmine-html-reporter
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-jasmine-html-reporter
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15999/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 05:44:27.000000000 Z
+- name: karma-requirejs
+  description: A Karma plugin. Adapter for RequireJS framework
+  package_url: https://www.npmjs.com/karma-requirejs
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16817/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-05-14 07:54:45.000000000 Z
+- name: karma-source-map-support
+  description: Karma plugin for inline sourcemap support
+  package_url: https://www.npmjs.com/karma-source-map-support
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18245/default_a855ddd0dfb82abe928e2a1dbcfb5e1e508976a0.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 05:44:27.000000000 Z
+- name: karma-sourcemap-loader
+  description: Karma plugin that locates and loads existing javascript source map
+    files
+  package_url: https://www.npmjs.com/karma-sourcemap-loader
+  version: 0.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16011/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: karma-webpack
+  description: Use webpack with karma
+  package_url: https://www.npmjs.com/karma-webpack
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 1.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-08-02 06:09:37.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+  vulnerabilities:
+  - name: Cleartext Transmission of Sensitive Information in moment-timezone
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v78c-4p63-2j6c
+    detected_date: Aug 31
+    severity: moderate
+    first_patched: 0.5.35
+  - name: Command Injection in moment-timezone
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-56x4-j7p9-fcf9
+    detected_date: Aug 31
+    severity: low
+    first_patched: 0.5.35
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-06-29 09:03:36.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-10 07:17:52.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: raf
+  description: RequestAnimationFrame polyfill for node and the browser
+  package_url: https://www.npmjs.com/raf
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16199/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Atira Odhner
+  last_updated_on: 2017-03-15 17:09:22.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: react-draggable
+  description: React draggable component
+  package_url: https://www.npmjs.com/react-draggable
+  version: 4.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17422/default_90854c53afd40e0b32cb5e4d62d6bbc2214e0f62.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: react-select
+  description: A Select control built with and for ReactJS
+  package_url: https://www.npmjs.com/react-select
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16452/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: react-table
+  description: Hooks for building lightweight
+  package_url: https://www.npmjs.com/react-table
+  version: 7.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17860/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-03 07:20:24.000000000 Z
+- name: resize-observer-polyfill
+  description: A polyfill for the Resize Observer API
+  package_url: https://www.npmjs.com/resize-observer-polyfill
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17168/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Nikhil Mohite
+  last_updated_on: 2021-09-20 07:32:41.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 11.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: sass-resources-loader
+  description: SASS resources loader for Webpack
+  package_url: https://www.npmjs.com/sass-resources-loader
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18392/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Rahul Shirsat
+  last_updated_on: 2021-09-02 06:06:10.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-09-29 08:13:05.000000000 Z
+- name: terser-webpack-plugin
+  description: Terser plugin for webpack
+  package_url: https://www.npmjs.com/terser-webpack-plugin
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-12-01 12:13:20.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-10-21 09:38:24.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 4.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-05-14 07:54:45.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/yarn.lock
+  detection_source: web/package.json
+  last_updated_by: Nikhil Mohite
+  last_updated_on: 2021-05-25 14:42:57.000000000 Z
+- name: Authlib
+  description: The ultimate Python library in building OAuth and OpenID Connect servers
+  package_url: https://pypi.org/project/Authlib
+  version: '0.15'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20752/default_cf2c193a97e2b1ce404093ff2bc569ddeeeb005b.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Khushboo Vashi
+  last_updated_on: 2021-07-06 07:52:58.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-Babel
+  description: Adds i18n/l10n support to Flask applications
+  package_url: https://pypi.org/project/Flask-Babel
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-Compress
+  description: Compress responses in your Flask app with gzip
+  package_url: https://pypi.org/project/Flask-Compress
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-Login
+  description: User session management for Flask
+  package_url: https://pypi.org/project/Flask-Login
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20091/default_5d939a1a27846185eb6de438be4bf77b84b4ee87.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-Mail
+  description: Flask extension for sending email
+  package_url: https://pypi.org/project/Flask-Mail
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-Migrate
+  description: SQLAlchemy database migrations for Flask applications using Alembic
+  package_url: https://pypi.org/project/Flask-Migrate
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20329/default_cf6b540611cb9b9b5d016a661f54f50ad3400f1a.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-SQLAlchemy
+  description: Adds SQLAlchemy support to your Flask application
+  package_url: https://pypi.org/project/Flask-SQLAlchemy
+  version: '2.5'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19941/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-SocketIO
+  description: Socket.IO integration for Flask applications
+  package_url: https://pypi.org/project/Flask-SocketIO
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20375/default_86c41789cbd5dc6b872b122419740f58f5d2f18a.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: Flask-WTF
+  description: Simple integration of Flask and WTForms
+  package_url: https://pypi.org/project/Flask-WTF
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20060/default_eed7014d799b4e750aea7c37ab970b4b62c0cf42.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-12-01 11:30:33.000000000 Z
+- name: WTForms
+  description: A flexible forms validation and rendering library for Python web development
+  package_url: https://pypi.org/project/WTForms
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20615/default_7382161db21ae3cf11739d4242ed42a7278e7489.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-11-24 11:52:57.000000000 Z
+- name: bcrypt
+  description: Modern password hashing for your software and your servers
+  package_url: https://pypi.org/project/bcrypt
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20031/default_242158225818ea25f0ab9031a46e17f8ff8246cb.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 5.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Navnath Gadakh
+  last_updated_on: 2020-01-03 13:30:08.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: eventlet
+  description: Highly concurrent networking library
+  package_url: https://pypi.org/project/eventlet
+  version: 0.33.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20017/default_70556f9333e0a39c148cac0c36ca24235943f270.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Rahul Shirsat
+  last_updated_on: 2021-11-18 06:59:24.000000000 Z
+- name: extras
+  description: Useful extra bits for Python - things that shold be in the standard
+    library
+  package_url: https://pypi.org/project/extras
+  version: 1.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Cyril Jouve
+  last_updated_on: 2019-02-07 10:34:07.000000000 Z
+- name: fixtures
+  description: Fixtures, reusable state for writing clean tests and more
+  package_url: https://pypi.org/project/fixtures
+  version: 3.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Cyril Jouve
+  last_updated_on: 2019-02-07 10:34:07.000000000 Z
+- name: httpagentparser
+  description: Extracts OS Browser etc information from http user agent string
+  package_url: https://pypi.org/project/httpagentparser
+  version: '1.9'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-06-04 13:19:19.000000000 Z
+- name: ldap3
+  description: A strictly RFC 4510 conforming LDAP V3 pure Python client library
+  package_url: https://pypi.org/project/ldap3
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20218/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: passlib
+  description: Comprehensive password hashing framework supporting over 30 schemes
+  package_url: https://pypi.org/project/passlib
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19992/default_aa5b3e77340c2bb80cd8e6a59cd82909abcdcd63.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: pbr
+  description: Python Build Reasonableness
+  package_url: https://pypi.org/project/pbr
+  version: 3.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19861/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Dave Page
+  last_updated_on: 2017-02-26 09:06:17.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: '2.9'
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-12-16 10:23:58.000000000 Z
+- name: pycodestyle
+  description: Python style guide checker
+  package_url: https://pypi.org/project/pycodestyle
+  version: 2.5.0
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20145/default_a55249b25c76872ebbee6b173a63c5fce36136f9.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Dave Page
+  last_updated_on: 2019-03-20 13:01:32.000000000 Z
+- name: pyotp
+  description: Python One Time Password Library
+  package_url: https://pypi.org/project/pyotp
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20608/default_5375631ed98c554ed8d98d9ae6acd7ae13b3515e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashesh Vashi
+  last_updated_on: 2021-12-02 11:17:18.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: python-mimeparse
+  description: A module provides basic functions for parsing mime-type names and matching
+    them against a list of media-ranges
+  package_url: https://pypi.org/project/python-mimeparse
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20548/default_cde277f9f5ddb25ccf86d553790fb97f5a8f825c.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Cyril Jouve
+  last_updated_on: 2019-02-07 10:34:07.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: qrcode
+  description: QR Code image generator
+  package_url: https://pypi.org/project/qrcode
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20148/default_29fd040eb57820a7b7a415b9eba1bba73c05d9c8.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ashesh Vashi
+  last_updated_on: 2021-12-02 11:17:18.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: '2.25'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Khushboo Vashi
+  last_updated_on: 2021-07-06 07:52:58.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: selenium
+  description: Python bindings for Selenium
+  package_url: https://pypi.org/project/selenium
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19869/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Yogesh Mahajan
+  last_updated_on: 2021-11-12 06:26:44.000000000 Z
+- name: simplejson
+  description: Simple, fast, extensible JSON encoder/decoder for Python
+  package_url: https://pypi.org/project/simplejson
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19859/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Aditya Toshniwal
+  last_updated_on: 2021-02-03 06:59:57.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dave Page
+  last_updated_on: 2019-07-29 10:24:54.000000000 Z
+- name: sqlparse
+  description: Non-validating SQL parser
+  package_url: https://pypi.org/project/sqlparse
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20039/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Pradip Parkale
+  last_updated_on: 2021-06-01 14:48:24.000000000 Z
+- name: testtools
+  description: Extensions to the Python standard library unit testing framework
+  package_url: https://pypi.org/project/testtools
+  version: 2.5.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20569/default_c0168195ccd784fb0b83e7f7661959455719049b.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-12-16 12:06:13.000000000 Z
+- name: traceback2
+  description: Backports of the traceback module
+  package_url: https://pypi.org/project/traceback2
+  version: 1.4.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/web/regression/requirements.txt
+  detection_source: web/regression/requirements.txt
+  last_updated_by: Dave Page
+  last_updated_on: 2017-03-02 09:18:45.000000000 Z
+- name: user-agents
+  description: A library to identify devices
+  package_url: https://pypi.org/project/user-agents
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20503/default_d5bf4c0fcc9533ca9cb10ce938464b618fa379e4.png
+  detection_source_url: https://github.com/shinhanbyeol/pgadmin4/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Akshay Joshi
+  last_updated_on: 2021-06-04 13:19:19.000000000 Z
